@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YuboCode_Example' do
+  pod 'YuboCode', :path => '../'
+
+  target 'YuboCode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
