@@ -1,0 +1,6 @@
+framework module YuboCode {
+  umbrella header "YuboCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

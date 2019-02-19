@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A6E29E4290970D65C362D12E85E74C9 /* Pods-YuboCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDE71EF64D90F095E19FA1A284BF035 /* Pods-YuboCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CB01E09221C7C66001E657C /* Home.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB01E07221C7C66001E657C /* Home.h */; };
+		3CB01E0A221C7C66001E657C /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB01E08221C7C66001E657C /* Home.m */; };
+		413C420A5A3ADF5C997B8DDBC45C5A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		50AC7DCA4863FBA8B404DCDA2A5DC1C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		68911AF568890543B4C04673E7E9BD44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BEF95FA39D9B98C1A28432E47F648646 /* Pods-YuboCode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5537746BACE2290C2F7C21EF9A66FE0F /* Pods-YuboCode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6CACFD75CC7BDC1CE838DE0DF8CB601 /* YuboCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD942A018AD2BE3437A192595D79B9C3 /* YuboCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E71F26A559FDCE005690FE74DBA23368 /* YuboCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B070C2B479F8D1F329A980EE1513598 /* YuboCode-dummy.m */; };
+		F44420FDC590DC44A271D5D65E6BE1D9 /* Pods-YuboCode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E97470B1B73321A97DA25F8230EB16FC /* Pods-YuboCode_Example-dummy.m */; };
+		FC5609C53316A6B95277CD1B18E27A08 /* Pods-YuboCode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E130D1C835AF3D3360312158993B897 /* Pods-YuboCode_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BAB914507E91D548B7CD01AC1E269E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6451759E161FF970C31F8F2F454C965;
+			remoteInfo = YuboCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B429E2D40AB6FD24F72021C0D0D56A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C17A343574DE73ABFEBD468DB933C2D /* Pods-YuboCode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YuboCode_Example-frameworks.sh"; sourceTree = "<group>"; };
+		14E21457BC99F0E6010F96048D88EE80 /* Pods-YuboCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuboCode_Example.modulemap"; sourceTree = "<group>"; };
+		1A1203AC950704F491E48FAE527EEBF1 /* Pods-YuboCode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuboCode_Tests.modulemap"; sourceTree = "<group>"; };
+		2B866F1E3591AE6CF68E74E7DD5D7654 /* Pods-YuboCode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuboCode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		32CB5F28435A0B6EAD3552EAFA688D93 /* Pods-YuboCode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuboCode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CB01E07221C7C66001E657C /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Home.h; path = YuboCode/Classes/Home.h; sourceTree = "<group>"; };
+		3CB01E08221C7C66001E657C /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Home.m; path = YuboCode/Classes/Home.m; sourceTree = "<group>"; };
+		3E130D1C835AF3D3360312158993B897 /* Pods-YuboCode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuboCode_Tests-dummy.m"; sourceTree = "<group>"; };
+		48044BBD1805BB65ABB0F2673AC91EF7 /* Pods-YuboCode_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YuboCode_Tests-resources.sh"; sourceTree = "<group>"; };
+		48D8F394852D582281C932880537A3BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C2AECA55617D1A51E0B68C46E7B4C4 /* YuboCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuboCode.xcconfig; sourceTree = "<group>"; };
+		4A74FB979F4F11D83EE4253B758B187F /* Pods-YuboCode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuboCode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B070C2B479F8D1F329A980EE1513598 /* YuboCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YuboCode-dummy.m"; sourceTree = "<group>"; };
+		51942B22F994FA8294F9E1A71DBDFAC9 /* Pods-YuboCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuboCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5537746BACE2290C2F7C21EF9A66FE0F /* Pods-YuboCode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuboCode_Example-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		737A5F48BF5485C5FEAEA93DD12F4BA5 /* YuboCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YuboCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F76286AB0B7471F30637C72CD5E210 /* YuboCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YuboCode.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FDE71EF64D90F095E19FA1A284BF035 /* Pods-YuboCode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuboCode_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ABA574D9300098F548D91B21E1E2F631 /* Pods-YuboCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuboCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5A6773E1B9E0F7BAA1B229FC8A2E14 /* Pods-YuboCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuboCode_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BFC7F5AE3262C60CDE8BCBB2914ED588 /* YuboCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YuboCode-prefix.pch"; sourceTree = "<group>"; };
+		C461336CE0C00F42AB7E958148E46FF3 /* Pods_YuboCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YuboCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD92D1DC1CAD2793B267282C83DC46D5 /* Pods-YuboCode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuboCode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD942A018AD2BE3437A192595D79B9C3 /* YuboCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YuboCode-umbrella.h"; sourceTree = "<group>"; };
+		CFD6EF94EAB4B8400D27DF93006E02FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3EA46650EAF5F0EF92C34A8D5A142AB /* Pods-YuboCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuboCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E97470B1B73321A97DA25F8230EB16FC /* Pods-YuboCode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuboCode_Example-dummy.m"; sourceTree = "<group>"; };
+		EACE26BD530D5C36AC67BF1968DB77FB /* Pods-YuboCode_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YuboCode_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EE0D102DC378A6DD0236253663C7BA42 /* Pods_YuboCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YuboCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33A5D59EDBD5EA1CDC332D50DB8C12E /* Pods-YuboCode_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YuboCode_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99A12E809BEAC05D6F6DC44C96AB7E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68911AF568890543B4C04673E7E9BD44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0956D0E516FD99669D26DE4AE16FB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AC7DCA4863FBA8B404DCDA2A5DC1C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD02B10930C06B308C0C441DF37E4605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413C420A5A3ADF5C997B8DDBC45C5A95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5145D8A40EB62FA8F69CE5095EBA79CE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE0755F453982AEFCB71747370F87403 /* Pods-YuboCode_Example */,
+				F6ED5279A7E409C42135D1AB91F4F633 /* Pods-YuboCode_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DF7F1A39D6D0E2D6A62B455DDA51F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0D102DC378A6DD0236253663C7BA42 /* Pods_YuboCode_Example.framework */,
+				C461336CE0C00F42AB7E958148E46FF3 /* Pods_YuboCode_Tests.framework */,
+				737A5F48BF5485C5FEAEA93DD12F4BA5 /* YuboCode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8E434D8A8E5BE4B94E49DBD2F263C523 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6DF7F1A39D6D0E2D6A62B455DDA51F75 /* Products */,
+				5145D8A40EB62FA8F69CE5095EBA79CE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E434D8A8E5BE4B94E49DBD2F263C523 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA6FA4C486C44DE0517CF1AAC828996D /* YuboCode */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA6FA4C486C44DE0517CF1AAC828996D /* YuboCode */ = {
+			isa = PBXGroup;
+			children = (
+				3CB01E07221C7C66001E657C /* Home.h */,
+				3CB01E08221C7C66001E657C /* Home.m */,
+				ECF0477FA49DDAF93A038DE96560CE8A /* Support Files */,
+			);
+			name = YuboCode;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DE0755F453982AEFCB71747370F87403 /* Pods-YuboCode_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CFD6EF94EAB4B8400D27DF93006E02FE /* Info.plist */,
+				14E21457BC99F0E6010F96048D88EE80 /* Pods-YuboCode_Example.modulemap */,
+				CD92D1DC1CAD2793B267282C83DC46D5 /* Pods-YuboCode_Example-acknowledgements.markdown */,
+				2B866F1E3591AE6CF68E74E7DD5D7654 /* Pods-YuboCode_Example-acknowledgements.plist */,
+				E97470B1B73321A97DA25F8230EB16FC /* Pods-YuboCode_Example-dummy.m */,
+				0C17A343574DE73ABFEBD468DB933C2D /* Pods-YuboCode_Example-frameworks.sh */,
+				F33A5D59EDBD5EA1CDC332D50DB8C12E /* Pods-YuboCode_Example-resources.sh */,
+				5537746BACE2290C2F7C21EF9A66FE0F /* Pods-YuboCode_Example-umbrella.h */,
+				51942B22F994FA8294F9E1A71DBDFAC9 /* Pods-YuboCode_Example.debug.xcconfig */,
+				BB5A6773E1B9E0F7BAA1B229FC8A2E14 /* Pods-YuboCode_Example.release.xcconfig */,
+			);
+			name = "Pods-YuboCode_Example";
+			path = "Target Support Files/Pods-YuboCode_Example";
+			sourceTree = "<group>";
+		};
+		ECF0477FA49DDAF93A038DE96560CE8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48D8F394852D582281C932880537A3BC /* Info.plist */,
+				83F76286AB0B7471F30637C72CD5E210 /* YuboCode.modulemap */,
+				49C2AECA55617D1A51E0B68C46E7B4C4 /* YuboCode.xcconfig */,
+				4B070C2B479F8D1F329A980EE1513598 /* YuboCode-dummy.m */,
+				BFC7F5AE3262C60CDE8BCBB2914ED588 /* YuboCode-prefix.pch */,
+				CD942A018AD2BE3437A192595D79B9C3 /* YuboCode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YuboCode";
+			sourceTree = "<group>";
+		};
+		F6ED5279A7E409C42135D1AB91F4F633 /* Pods-YuboCode_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				02B429E2D40AB6FD24F72021C0D0D56A /* Info.plist */,
+				1A1203AC950704F491E48FAE527EEBF1 /* Pods-YuboCode_Tests.modulemap */,
+				32CB5F28435A0B6EAD3552EAFA688D93 /* Pods-YuboCode_Tests-acknowledgements.markdown */,
+				4A74FB979F4F11D83EE4253B758B187F /* Pods-YuboCode_Tests-acknowledgements.plist */,
+				3E130D1C835AF3D3360312158993B897 /* Pods-YuboCode_Tests-dummy.m */,
+				EACE26BD530D5C36AC67BF1968DB77FB /* Pods-YuboCode_Tests-frameworks.sh */,
+				48044BBD1805BB65ABB0F2673AC91EF7 /* Pods-YuboCode_Tests-resources.sh */,
+				9FDE71EF64D90F095E19FA1A284BF035 /* Pods-YuboCode_Tests-umbrella.h */,
+				ABA574D9300098F548D91B21E1E2F631 /* Pods-YuboCode_Tests.debug.xcconfig */,
+				E3EA46650EAF5F0EF92C34A8D5A142AB /* Pods-YuboCode_Tests.release.xcconfig */,
+			);
+			name = "Pods-YuboCode_Tests";
+			path = "Target Support Files/Pods-YuboCode_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0B72DF72024A0E410188DC1C0A23A89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CACFD75CC7BDC1CE838DE0DF8CB601 /* YuboCode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D068872D9C552068FA25F2814C5F64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF95FA39D9B98C1A28432E47F648646 /* Pods-YuboCode_Example-umbrella.h in Headers */,
+				3CB01E09221C7C66001E657C /* Home.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE86D1148E456A56E23CEAA4158FE19D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6E29E4290970D65C362D12E85E74C9 /* Pods-YuboCode_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26B7773AD3707B2FA2F1225F93FFD56A /* Pods-YuboCode_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3DA601C0E66595E225ACE6C91C4AD4C /* Build configuration list for PBXNativeTarget "Pods-YuboCode_Tests" */;
+			buildPhases = (
+				EE86D1148E456A56E23CEAA4158FE19D /* Headers */,
+				CC53E85A25614557BAA9D17564B895FB /* Sources */,
+				99A12E809BEAC05D6F6DC44C96AB7E39 /* Frameworks */,
+				85E02D56A324F0D0491D051BA0F4A144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YuboCode_Tests";
+			productName = "Pods-YuboCode_Tests";
+			productReference = C461336CE0C00F42AB7E958148E46FF3 /* Pods_YuboCode_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE5E25F316F2A12E21363101002F87B2 /* Pods-YuboCode_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7208334724B7C63615B15163BDC3F9FF /* Build configuration list for PBXNativeTarget "Pods-YuboCode_Example" */;
+			buildPhases = (
+				A9D068872D9C552068FA25F2814C5F64 /* Headers */,
+				B767D1FDA6D57932BA3AD6594A575BB0 /* Sources */,
+				DD02B10930C06B308C0C441DF37E4605 /* Frameworks */,
+				6A4C020C4B543BBB1FADECAE9DB52B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				297DE4ECDD524C9CF581C37C127B9624 /* PBXTargetDependency */,
+			);
+			name = "Pods-YuboCode_Example";
+			productName = "Pods-YuboCode_Example";
+			productReference = EE0D102DC378A6DD0236253663C7BA42 /* Pods_YuboCode_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6451759E161FF970C31F8F2F454C965 /* YuboCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25D5D6838F63907F20CDFD8EFE7BDB9 /* Build configuration list for PBXNativeTarget "YuboCode" */;
+			buildPhases = (
+				A0B72DF72024A0E410188DC1C0A23A89 /* Headers */,
+				32885CB4E8A37EDC7182BA5298B451E9 /* Sources */,
+				D0956D0E516FD99669D26DE4AE16FB60 /* Frameworks */,
+				71D576467DD0213B9D6EFE98E1C0C1C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuboCode;
+			productName = YuboCode;
+			productReference = 737A5F48BF5485C5FEAEA93DD12F4BA5 /* YuboCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6DF7F1A39D6D0E2D6A62B455DDA51F75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE5E25F316F2A12E21363101002F87B2 /* Pods-YuboCode_Example */,
+				26B7773AD3707B2FA2F1225F93FFD56A /* Pods-YuboCode_Tests */,
+				E6451759E161FF970C31F8F2F454C965 /* YuboCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A4C020C4B543BBB1FADECAE9DB52B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D576467DD0213B9D6EFE98E1C0C1C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E02D56A324F0D0491D051BA0F4A144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32885CB4E8A37EDC7182BA5298B451E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71F26A559FDCE005690FE74DBA23368 /* YuboCode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B767D1FDA6D57932BA3AD6594A575BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB01E0A221C7C66001E657C /* Home.m in Sources */,
+				F44420FDC590DC44A271D5D65E6BE1D9 /* Pods-YuboCode_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC53E85A25614557BAA9D17564B895FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5609C53316A6B95277CD1B18E27A08 /* Pods-YuboCode_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297DE4ECDD524C9CF581C37C127B9624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YuboCode;
+			target = E6451759E161FF970C31F8F2F454C965 /* YuboCode */;
+			targetProxy = 9BAB914507E91D548B7CD01AC1E269E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		266FFBDFB9675187D214A7FB90EEF27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3EA46650EAF5F0EF92C34A8D5A142AB /* Pods-YuboCode_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YuboCode_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YuboCode_Tests/Pods-YuboCode_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YuboCode_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A84D6B156D837CFAE10AF16A4B2E0D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7679FCBE9AA77B2DAE0FC3C9DCF60987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51942B22F994FA8294F9E1A71DBDFAC9 /* Pods-YuboCode_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YuboCode_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YuboCode_Example/Pods-YuboCode_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YuboCode_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7E55FE1467BE28AA12299266E145C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ABDF07F2BBF4C2764DDA9ECC563C5F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA574D9300098F548D91B21E1E2F631 /* Pods-YuboCode_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YuboCode_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YuboCode_Tests/Pods-YuboCode_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YuboCode_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2B94D07106A5FFD869D918093D3FE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C2AECA55617D1A51E0B68C46E7B4C4 /* YuboCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YuboCode/YuboCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YuboCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YuboCode/YuboCode.modulemap";
+				PRODUCT_NAME = YuboCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4D1786BC435E1291842DC768A615778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C2AECA55617D1A51E0B68C46E7B4C4 /* YuboCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YuboCode/YuboCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YuboCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YuboCode/YuboCode.modulemap";
+				PRODUCT_NAME = YuboCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C94CFB1895B2A5457D84258DF4E6AC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5A6773E1B9E0F7BAA1B229FC8A2E14 /* Pods-YuboCode_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YuboCode_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YuboCode_Example/Pods-YuboCode_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YuboCode_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E55FE1467BE28AA12299266E145C1F /* Debug */,
+				3A84D6B156D837CFAE10AF16A4B2E0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7208334724B7C63615B15163BDC3F9FF /* Build configuration list for PBXNativeTarget "Pods-YuboCode_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7679FCBE9AA77B2DAE0FC3C9DCF60987 /* Debug */,
+				C94CFB1895B2A5457D84258DF4E6AC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3DA601C0E66595E225ACE6C91C4AD4C /* Build configuration list for PBXNativeTarget "Pods-YuboCode_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDF07F2BBF4C2764DDA9ECC563C5F61 /* Debug */,
+				266FFBDFB9675187D214A7FB90EEF27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25D5D6838F63907F20CDFD8EFE7BDB9 /* Build configuration list for PBXNativeTarget "YuboCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B94D07106A5FFD869D918093D3FE3D /* Debug */,
+				B4D1786BC435E1291842DC768A615778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

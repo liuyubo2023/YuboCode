@@ -1,0 +1,22 @@
+{
+  "name": "YuboCode",
+  "version": "0.1.0",
+  "summary": "A short description of YuboCode.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liuyubo2023/YuboCode",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuyubo2023": "lyb2023@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/liuyubo2023/YuboCode.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YuboCode/Classes/**/*"
+}
