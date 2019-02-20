@@ -14,4 +14,8 @@
     NSLog(@"feature");
 }
 
+- (void)updateClass {
+    NSLog(@"update");
+}
+
 @end
