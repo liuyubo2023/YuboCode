@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YuboCode'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'This is yubo code'
 
 # This description is used to generate tags and improve search results.
