@@ -16,7 +16,7 @@
 
 - (void)updateClass {
     NSLog(@"update-1.03333");
-    NSLog(@"test");
+    NSLog(@"1.0.3");
 }
 
 @end
